@@ -16,7 +16,7 @@ class Level:
     def run(self, ):
         while True:
             for ent in self.entity_list:
-                self.window.bllit(source=ent.surf, dest=ent.rect)
+                self.window.blit(source=ent.surf, dest=ent.rect)
                 ent.move()
             pygame.display.flip()
         pass
