@@ -51,13 +51,13 @@ ENTITY_HEALTH = {
     'Level2Bg4': 999,
     'Level2Bg5': 999,
     'Level2Bg6': 999,
-    'Player1': 300,
+    'Player1': 150,
     'Player1Shot': 1,
-    'Player2': 300,
+    'Player2': 150,
     'Player2Shot': 1,
     'Enemy1': 50,
     'Enemy1Shot': 1,
-    'Enemy2': 60,
+    'Enemy2': 85,
     'Enemy2Shot': 1,
 }
 
@@ -112,10 +112,10 @@ ENTITY_SCORE = {
 }
 
 ENTITY_SHOT_DELAY = {
-    'Player1': 20,
-    'Enemy1': 240,
-    'Enemy2': 300,
-    'Player2': 20,
+    'Player1': 15,
+    'Enemy1': 180,
+    'Enemy2': 220,
+    'Player2': 15,
 }
 
 # M
@@ -139,21 +139,21 @@ PLAYER_KEY_SHOOT = {'Player1': pygame.K_RCTRL,
                     'Player2': pygame.K_LCTRL}
 
 # S
-SPAWN_TIME = 4000
-SCORE_POS = {'Title': (WINDOW_WIDTH /2, 50),
-             'EnterName': (WINDOW_WIDTH / 2, 80),
-             'Label': (WINDOW_WIDTH / 2, 90),
-             'Name': (WINDOW_WIDTH / 2, 110),
-             0: (WINDOW_WIDTH / 2, 110),
-             1: (WINDOW_WIDTH / 2, 130),
-             2: (WINDOW_WIDTH / 2, 150),
-             3: (WINDOW_WIDTH / 2, 170),
-             4: (WINDOW_WIDTH / 2, 190),
-             5: (WINDOW_WIDTH / 2, 210),
-             6: (WINDOW_WIDTH / 2, 230),
-             7: (WINDOW_WIDTH / 2, 250),
-             8: (WINDOW_WIDTH / 2, 270),
-             9: (WINDOW_WIDTH / 2, 290),
+SPAWN_TIME = 1500
+SCORE_POS = {'Title': (WINDOW_WIDTH /2+115, 50),
+             'EnterName': (WINDOW_WIDTH / 2+115, 80),
+             'Label': (WINDOW_WIDTH / 2+115, 90),
+             'Name': (WINDOW_WIDTH / 2+115, 110),
+             0: (WINDOW_WIDTH / 2+115, 110),
+             1: (WINDOW_WIDTH / 2+115, 130),
+             2: (WINDOW_WIDTH / 2+115, 150),
+             3: (WINDOW_WIDTH / 2+115, 170),
+             4: (WINDOW_WIDTH / 2+115, 190),
+             5: (WINDOW_WIDTH / 2+115, 210),
+             6: (WINDOW_WIDTH / 2+115, 230),
+             7: (WINDOW_WIDTH / 2+115, 250),
+             8: (WINDOW_WIDTH / 2+115, 270),
+             9: (WINDOW_WIDTH / 2+115, 290),
              }
 
 # T
