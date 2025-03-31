@@ -1,9 +1,10 @@
 # C
 import pygame
+from pygame.examples.grid import WINDOW_WIDTH
 
 COLOR_ORANGE = (255, 180, 0)
 COLOR_WHITE = (255, 255, 255)
-COLOR_YELLOW = (0, 0, 0)
+COLOR_YELLOW = (250, 250, 180)
 COLOR_GREEN = (0, 128, 0)
 COLOR_CYAN = (0, 128, 128)
 
@@ -29,10 +30,10 @@ ENTITY_SPEED = {
     'Player1Shot': 6,
     'Player2': 3,
     'Player2Shot': 6,
-    'Enemy1' : 1.5,
-    'Enemy1Shot' : 3.2,
-    'Enemy2' : 1,
-    'Enemy2Shot' : 2.6,
+    'Enemy1': 1.5,
+    'Enemy1Shot': 3.2,
+    'Enemy2': 1,
+    'Enemy2Shot': 2.6,
 }
 
 ENTITY_HEALTH = {
@@ -117,7 +118,6 @@ ENTITY_SHOT_DELAY = {
     'Player2': 20,
 }
 
-
 # M
 MENU_OPTION = ('NEW GAME 1P',
                'NEW GAME 2P - COOPERATIVE',
@@ -130,16 +130,31 @@ MENU_OPTION = ('NEW GAME 1P',
 PLAYER_KEY_UP = {'Player1': pygame.K_UP,
                  'Player2': pygame.K_w}
 PLAYER_KEY_DOWN = {'Player1': pygame.K_DOWN,
-                 'Player2': pygame.K_s}
+                   'Player2': pygame.K_s}
 PLAYER_KEY_LEFT = {'Player1': pygame.K_LEFT,
-                 'Player2': pygame.K_a}
+                   'Player2': pygame.K_a}
 PLAYER_KEY_RIGHT = {'Player1': pygame.K_RIGHT,
-                 'Player2': pygame.K_d}
+                    'Player2': pygame.K_d}
 PLAYER_KEY_SHOOT = {'Player1': pygame.K_RCTRL,
-                 'Player2': pygame.K_LCTRL}
+                    'Player2': pygame.K_LCTRL}
 
 # S
 SPAWN_TIME = 4000
+SCORE_POS = {'Title': (WINDOW_WIDTH /2, 50),
+             'EnterName': (WINDOW_WIDTH / 2, 80),
+             'Label': (WINDOW_WIDTH / 2, 90),
+             'Name': (WINDOW_WIDTH / 2, 110),
+             0: (WINDOW_WIDTH / 2, 110),
+             1: (WINDOW_WIDTH / 2, 130),
+             2: (WINDOW_WIDTH / 2, 150),
+             3: (WINDOW_WIDTH / 2, 170),
+             4: (WINDOW_WIDTH / 2, 190),
+             5: (WINDOW_WIDTH / 2, 210),
+             6: (WINDOW_WIDTH / 2, 230),
+             7: (WINDOW_WIDTH / 2, 250),
+             8: (WINDOW_WIDTH / 2, 270),
+             9: (WINDOW_WIDTH / 2, 290),
+             }
 
 # T
 TIMEOUT_STEP = 100
